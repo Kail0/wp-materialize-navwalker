@@ -1,5 +1,5 @@
 # wp-materialize-navwalker
-======================
+
 **A custom WordPress nav walker class to "fully" implement the Materialize CSS nested navigation style in a custom theme**
 
 
