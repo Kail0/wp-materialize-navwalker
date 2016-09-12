@@ -1,6 +1,6 @@
 # wp-materialize-navwalker
 ======================
-**A custom WordPress nav walker class to "fully" implement the Materialize CSS nested navigation style in a custom theme using the WordPress manager**
+**A custom WordPress nav walker class to "fully" implement the Materialize CSS nested navigation style in a custom theme**
 
 
 ![Extras](http://i.imgur.com/8J7KG7T.gif)
@@ -21,7 +21,7 @@ Open your WordPress themes **functions.php** file  `/wp-content/your-theme/funct
 
 ```php
 // Register Custom Navigation Walker
- require_once get_template_directory() . '/wp-materialize-navwalker.php';
+ require_once get_template_directory() . '/wp_materialize_navwalker.php';
 ```
 
 Usage
@@ -34,7 +34,7 @@ Update your `wp_nav_menu()` function in `header.php` to use the new walker by ad
                 'menu' => 'Primary',
                 'theme_location'=>'Primary',
                 'menu_class' => 'hide-on-med-and-down',
-                'walker' => new wp-materialize-navwalker()
+                'walker' => new wp_materialize_navwalker()
             ));
         ?>
 ```
