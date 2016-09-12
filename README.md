@@ -1,6 +1,6 @@
 # wp-materialize-navwalker
 ======================
-A custom WordPress nav walker class to "fully" implement the Materialize CSS nested navigation style in a custom theme using the WordPress manager
+**A custom WordPress nav walker class to "fully" implement the Materialize CSS nested navigation style in a custom theme using the WordPress manager**
 
 
 ![Extras](http://i.imgur.com/8J7KG7T.gif)
@@ -39,7 +39,7 @@ Update your `wp_nav_menu()` function in `header.php` to use the new walker by ad
         ?>
 ```
 
-Your menu will now be formatted with the correct syntax and classes to implement Bootstrap dropdown navigation.
+Your menu will now be formatted with the correct syntax and classes to implement Materialize dropdown navigation.
 
 You will also want to declare your new menu in your `functions.php` file.
 
@@ -54,8 +54,6 @@ register_nav_menus(
     )
 );
 ```
-
-To change your menu style add Bootstrap nav class names to the `menu_class` declaration.
 
 Changelog
 ----
