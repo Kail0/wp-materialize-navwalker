@@ -3,7 +3,7 @@
 custom WordPress nav walker class to "fully" implement the Materialize CSS navigation style in a custom theme using the WordPress manager
 
 
-![Extras](http://i.imgur.com/8J7KG7T.gifv)
+![Extras](http://i.imgur.com/8J7KG7T.gif)
 
 
 
