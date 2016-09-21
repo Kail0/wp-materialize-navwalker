@@ -23,7 +23,7 @@ Open your WordPress themes **functions.php** file  `/wp-content/your-theme/funct
 // Register wp-materialize-navwalker
  require_once get_template_directory() . '/wp_materialize_navwalker.php';
 ```
-Than you need to declare your new menu in your `functions.php` file.
+Then you need to declare your new menu in your `functions.php` file.
 
 ```php
 register_nav_menus(
