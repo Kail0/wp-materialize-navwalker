@@ -23,9 +23,6 @@ Open your WordPress themes **functions.php** file  `/wp-content/your-theme/funct
 // Register wp-materialize-navwalker
  require_once get_template_directory() . '/wp_materialize_navwalker.php';
 ```
-
-Usage
---------------------
 Than you need to declare your new menu in your `functions.php` file.
 
 ```php
@@ -40,6 +37,8 @@ register_nav_menus(
 );
 ```
 
+Usage
+--------------------
 Afterthat, update your `wp_nav_menu()` function in `header.php` to use the new walker by adding a "walker" item to the wp_nav_menu array.
 
 ```php
